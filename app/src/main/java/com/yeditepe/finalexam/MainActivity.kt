@@ -39,6 +39,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun TaskItemPreview() {
     MyApplicationTheme {
-        Greeting("Android")
+       TaskItemScreen()
     }
 }
