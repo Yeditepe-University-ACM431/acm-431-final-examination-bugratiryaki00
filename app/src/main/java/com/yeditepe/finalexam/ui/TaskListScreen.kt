@@ -34,7 +34,7 @@ fun TaskListScreen(
         items(tasks) { task ->
             TaskColumn(
                 task = task,
-                navController = navController,
+                navController = navController
             )
         }
     }
