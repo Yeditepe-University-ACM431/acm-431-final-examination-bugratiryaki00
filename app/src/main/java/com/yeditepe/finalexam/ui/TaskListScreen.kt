@@ -18,6 +18,7 @@ import com.yeditepe.finalexam.viewmodel.TaskViewModel
 fun TaskListScreen(
     navController: NavController,
     viewModel: TaskViewModel = viewModel()
+    onTaskClick (Tasks) -> Unit
 ) {
 
     // TODO 3: Read task list from ViewModel
@@ -35,6 +36,7 @@ fun TaskListScreen(
             TaskColumn(
                 task = task,
                 navController = navController,
+                onClick ={onTaskClick(tasks)}
             )
         }
     }
