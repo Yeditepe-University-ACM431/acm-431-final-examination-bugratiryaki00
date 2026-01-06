@@ -11,7 +11,7 @@ class TaskViewModel : ViewModel() {
     val tasks = mutableStateListOf(
         Task(id = 1, title = "Complete Final Project", isCompleted = false),
         Task(id = 2, title = "Review Code", isCompleted = true),
-        Task(id = 3, title = "Say Hi to your fav teacher Engin Kandıran", isCompleted = flase)
+        Task(id = 3, title = "Say Hi to your fav teacher Engin Kandıran", isCompleted = false)
     )
 
     fun toggleTask(taskId: Int) {
